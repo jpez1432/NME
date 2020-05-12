@@ -1,0 +1,1377 @@
+# depslib dependency file v1.0
+1584631571 source:d:\projects_2\nme\nme\sources\common.cpp
+	"Common.hpp"
+	<shlobj.h>
+
+1584632502 d:\projects_2\nme\nme\sources\common.hpp
+	"Config.hpp"
+	"Logger.hpp"
+
+1501561540 d:\projects_2\dependencies\glew-2.1.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1577928940 d:\projects_2\dependencies\glfw-3.3.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<vulkan/vulkan.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1581574518 d:\projects_2\nme\nme\sources\config.hpp
+	"Logger.hpp"
+	<windows.h>
+	<string>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<Glm.hpp>
+
+1581267339 d:\projects_2\nme\nme\sources\logger.hpp
+	<windows.h>
+	<string>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1536015770 d:\projects_2\dependencies\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1572713117 d:\projects_2\dependencies\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<CL/sycl.hpp>
+	<limits>
+	<cstdint>
+	<type_traits>
+
+1578235456 d:\projects_2\dependencies\glm\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	"neon.h"
+
+1578235456 d:\projects_2\dependencies\glm\glm\simd\neon.h
+	<arm_neon.h>
+
+1567842339 d:\projects_2\dependencies\glm\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1567850779 d:\projects_2\dependencies\glm\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\_swizzle.hpp
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\_swizzle_func.hpp
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1578235456 d:\projects_2\dependencies\glm\glm\detail\type_vec4_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x3.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x4.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x2.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x4.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x2.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\type_mat4x3.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x4_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_vector_relational_simd.inl
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\_vectorize.hpp
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1536013586 d:\projects_2\dependencies\glm\glm\simd\exponential.h
+	"platform.h"
+
+1567842339 d:\projects_2\dependencies\glm\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1585004180 d:\projects_2\dependencies\glm\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1567842339 d:\projects_2\dependencies\glm\glm\simd\common.h
+	"platform.h"
+
+1578235456 d:\projects_2\dependencies\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1525776867 d:\projects_2\dependencies\glm\glm\simd\geometric.h
+	"common.h"
+
+1578235456 d:\projects_2\dependencies\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1525776867 d:\projects_2\dependencies\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569763 d:\projects_2\dependencies\glm\glm\detail\func_trigonometric_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\type_half.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_packing_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1567864054 d:\projects_2\dependencies\glm\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1525776867 d:\projects_2\dependencies\glm\glm\simd\integer.h
+
+1582239952 source:d:\projects_2\nme\nme\sources\config.cpp
+	"Config.hpp"
+
+1584631797 source:d:\projects_2\nme\nme\sources\engine\interface.cpp
+	"Interface.hpp"
+	"Model.hpp"
+
+1584631755 d:\projects_2\nme\nme\sources\engine\interface.hpp
+	"Tools.hpp"
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl3.h"
+
+1578751696 d:\projects_2\nme\nme\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1578784683 d:\projects_2\nme\nme\sources\interface\imconfig.h
+
+1578751696 d:\projects_2\nme\nme\sources\interface\imgui_impl_glfw.h
+
+1578748096 d:\projects_2\nme\nme\sources\interface\imgui_impl_opengl2.h
+
+1584632259 source:d:\projects_2\nme\nme\sources\engine\render.cpp
+	"Render.hpp"
+	"Model.hpp"
+	<glm.hpp>
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+
+1584632288 d:\projects_2\nme\nme\sources\engine\render.hpp
+	"Interface.hpp"
+	"VBO.hpp"
+	"Shaders.hpp"
+	<glm.hpp>
+
+1584632235 d:\projects_2\nme\nme\sources\engine\tools.hpp
+	<glm.hpp>
+	"../Config.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1572693951 d:\projects_2\dependencies\glm\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1572693951 d:\projects_2\dependencies\glm\glm\ext\scalar_constants.inl
+	<limits>
+
+1572693951 d:\projects_2\dependencies\glm\glm\gtc\constants.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_projection.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1578237923 d:\projects_2\dependencies\glm\glm\ext\matrix_clip_space.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1567842339 d:\projects_2\dependencies\glm\glm\ext\matrix_transform.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1567872587 d:\projects_2\dependencies\glm\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1539733379 d:\projects_2\dependencies\glm\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_geometric.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_common_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1578259146 d:\projects_2\dependencies\glm\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_relational.inl
+
+1578258314 d:\projects_2\dependencies\glm\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_quat_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1572693951 d:\projects_2\dependencies\glm\glm\ext\quaternion_trigonometric.inl
+	"scalar_constants.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_transform.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1536013586 d:\projects_2\dependencies\glm\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\quaternion_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1567842339 d:\projects_2\dependencies\glm\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1536013586 d:\projects_2\dependencies\glm\glm\gtc\matrix_access.hpp
+	"../detail/setup.hpp"
+	"matrix_access.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\matrix_access.inl
+
+1584630841 source:d:\projects_2\nme\nme\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1584630849 d:\projects_2\nme\nme\sources\engine\timer.hpp
+	<GLFW/Glfw3.h>
+
+1584632021 source:d:\projects_2\nme\nme\sources\engine\tools.cpp
+	"Tools.hpp"
+	"Model.hpp"
+
+1578751696 source:d:\projects_2\nme\nme\sources\interface\imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"stb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1578751696 d:\projects_2\nme\nme\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1578751696 d:\projects_2\nme\nme\sources\interface\imstb_textedit.h
+	<string.h>
+
+1578751696 source:d:\projects_2\nme\nme\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1578751696 d:\projects_2\nme\nme\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1578751696 d:\projects_2\nme\nme\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1578751696 source:d:\projects_2\nme\nme\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1577928940 d:\projects_2\dependencies\glfw-3.3.1.bin.win32\include\glfw\glfw3native.h
+	<windows.h>
+	<ApplicationServices/ApplicationServices.h>
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	<wayland-client.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+	<GL/osmesa.h>
+
+1578748096 source:d:\projects_2\nme\nme\sources\interface\imgui_impl_opengl2.cpp
+	"imgui.h"
+	"imgui_impl_opengl2.h"
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+
+1578751696 source:d:\projects_2\nme\nme\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1581267339 source:d:\projects_2\nme\nme\sources\logger.cpp
+	"Logger.hpp"
+
+1584631745 source:d:\projects_2\nme\nme\sources\main.cpp
+	"Common.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+	"Engine/Model.hpp"
+	<Soil2/Soil2.h>
+
+1458722020 d:\projects_2\dependencies\soil2\src\soil2\soil2.h
+
+1584631325 source:d:\projects_2\nme\nme\sources\resources.rc
+	<windows.h>
+
+1584632461 source:d:\projects_2\nme\nme\sources\engine\model.cpp
+	"Model.hpp"
+
+1584632461 d:\projects_2\nme\nme\sources\engine\model.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	"../Common.hpp"
+	"Texture.hpp"
+	"VBO.hpp"
+	"Shaders.hpp"
+
+1581524740 source:d:\projects_2\nme\nme\sources\engine\texture.cpp
+	"Texture.hpp"
+
+1584631985 d:\projects_2\nme\nme\sources\engine\texture.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<Soil2/Soil2.h>
+	"../Config.hpp"
+
+1581561776 source:d:\projects_2\nme\nme\sources\engine\vbo.cpp
+	"VBO.hpp"
+
+1584630763 d:\projects_2\nme\nme\sources\engine\vbo.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<vector>
+
+1578784656 d:\projects_2\nme\nme\sources\interface\imgui_impl_opengl3.h
+
+1578751696 source:d:\projects_2\nme\nme\sources\interface\imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<OpenGLES/ES3/gl.h>
+	<GLES3/gl3.h>
+	<GL/gl3w.h>
+	<GL/glew.h>
+	<glad/glad.h>
+	<glbinding/gl/gl.h>
+	<glbinding/glbinding.h>
+
+1584631970 d:\projects_2\nme\nme\sources\engine\shaders.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	"../Config.hpp"
+
+1581552462 source:d:\projects_2\nme\nme\sources\engine\shaders.cpp
+	"Shaders.hpp"
+
+1581516807 source:d:\projects_2\nme\nme_\sources\common.cpp
+	"Common.hpp"
+	<shlobj.h>
+
+1581522373 d:\projects_2\nme\nme_\sources\common.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	"Config.hpp"
+	"Logger.hpp"
+
+1581570918 d:\projects_2\nme\nme_\sources\config.hpp
+	"Logger.hpp"
+	<windows.h>
+	<string>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<Glm.hpp>
+
+1581263739 d:\projects_2\nme\nme_\sources\logger.hpp
+	<windows.h>
+	<string>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1581578749 source:d:\projects_2\nme\nme_\sources\config.cpp
+	"Config.hpp"
+
+1581591257 source:d:\projects_2\nme\nme_\sources\engine\interface.cpp
+	"Interface.hpp"
+
+1581569682 d:\projects_2\nme\nme_\sources\engine\interface.hpp
+	"../Common.hpp"
+	"Model.hpp"
+	"Texture.hpp"
+	"VBO.hpp"
+	"Shaders.hpp"
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl3.h"
+
+1581590649 d:\projects_2\nme\nme_\sources\engine\model.hpp
+	"Texture.hpp"
+	"VBO.hpp"
+
+1581521021 d:\projects_2\nme\nme_\sources\engine\texture.hpp
+	"../Common.hpp"
+	<Soil2/Soil2.h>
+
+1581539907 d:\projects_2\nme\nme_\sources\engine\vbo.hpp
+	"../Common.hpp"
+
+1578748096 d:\projects_2\nme\nme_\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1578781083 d:\projects_2\nme\nme_\sources\interface\imconfig.h
+
+1578748096 d:\projects_2\nme\nme_\sources\interface\imgui_impl_glfw.h
+
+1578781056 d:\projects_2\nme\nme_\sources\interface\imgui_impl_opengl3.h
+
+1581591191 source:d:\projects_2\nme\nme_\sources\engine\render.cpp
+	"Render.hpp"
+
+1581567859 d:\projects_2\nme\nme_\sources\engine\render.hpp
+	"../Common.hpp"
+	"Tools.hpp"
+	"Interface.hpp"
+	"Model.hpp"
+	"VBO.hpp"
+	"Shaders.hpp"
+	<glm.hpp>
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+
+1581439465 d:\projects_2\nme\nme_\sources\engine\tools.hpp
+	"../Common.hpp"
+
+1581548861 d:\projects_2\nme\nme_\sources\engine\shaders.hpp
+	"../Common.hpp"
+
+1581548862 source:d:\projects_2\nme\nme_\sources\engine\shaders.cpp
+	"Shaders.hpp"
+
+1581521140 source:d:\projects_2\nme\nme_\sources\engine\texture.cpp
+	"Texture.hpp"
+
+1581522817 source:d:\projects_2\nme\nme_\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1572706077 d:\projects_2\nme\nme_\sources\engine\timer.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	"../Config.hpp"
+
+1581524509 source:d:\projects_2\nme\nme_\sources\engine\tools.cpp
+	"Tools.hpp"
+
+1581558176 source:d:\projects_2\nme\nme_\sources\engine\vbo.cpp
+	"VBO.hpp"
+
+1578748096 source:d:\projects_2\nme\nme_\sources\interface\imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"stb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1578748096 d:\projects_2\nme\nme_\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1578748096 d:\projects_2\nme\nme_\sources\interface\imstb_textedit.h
+	<string.h>
+
+1578748096 source:d:\projects_2\nme\nme_\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1578748096 d:\projects_2\nme\nme_\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1578748096 d:\projects_2\nme\nme_\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1578748096 source:d:\projects_2\nme\nme_\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1578748096 source:d:\projects_2\nme\nme_\sources\interface\imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<OpenGLES/ES3/gl.h>
+	<GLES3/gl3.h>
+	<GL/gl3w.h>
+	<GL/glew.h>
+	<glad/glad.h>
+	<glbinding/gl/gl.h>
+	<glbinding/glbinding.h>
+
+1578748096 source:d:\projects_2\nme\nme_\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1581263739 source:d:\projects_2\nme\nme_\sources\logger.cpp
+	"Logger.hpp"
+
+1581522535 source:d:\projects_2\nme\nme_\sources\main.cpp
+	"Common.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+	"Engine/Model.hpp"
+	<Soil2/Soil2.h>
+
+1581584100 source:d:\projects_2\nme\nme_\sources\resources.rc
+	<windows.h>
+
+1581590963 source:d:\projects_2\nme\nme_\sources\engine\model.cpp
+	"Model.hpp"
+

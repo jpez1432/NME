@@ -1,0 +1,39 @@
+
+#include <windows.h>
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+GLFW_ICON          ICON           "Resources\\General\\Icon.ico"
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+1 VERSIONINFO
+    FILEVERSION     0,1,52,0
+    PRODUCTVERSION  0,1,52,0
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VFT_APP
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   VS_FF_PRIVATEBUILD
+    FILEFLAGS       VS_FF_PRIVATEBUILD
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040901B5"
+        {
+            VALUE "Comments", "NME"
+            VALUE "CompanyName", "Natas8"
+            VALUE "FileDescription", "NME"
+            VALUE "FileVersion", "0,1,52,0"
+            VALUE "InternalName", "NME"
+            VALUE "LegalCopyright", "NME © 2020, Natas8"
+            VALUE "LegalTrademarks", "Natas8, NME"
+            VALUE "OriginalFilename", "NME"
+            VALUE "PrivateBuild", ""
+            VALUE "ProductName", "NME"
+            VALUE "ProductVersion", "0,1,52,0"
+            VALUE "SpecialBuild", ""
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 0x01B5
+    }
+}

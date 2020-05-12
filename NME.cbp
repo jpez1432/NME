@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NME" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug x86">
+				<Option output="./NME_x86D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Binary/Obj/Debug32/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++1z" />
+					<Add option="-m32" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG32" />
+					<Add directory="../../Dependencies/glew-2.1.0/include" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/include" />
+					<Add directory="../../Dependencies/glm/glm" />
+					<Add directory="../../Dependencies/soil2/src" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m32" />
+					<Add library="libglew_static32" />
+					<Add library="libglfw3" />
+					<Add library="libsoil2-static-lib" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="comdlg32" />
+					<Add library="version" />
+					<Add directory="../../Dependencies/glew-2.1.0/lib" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/lib-mingw" />
+					<Add directory="../../Dependencies/soil2/make/windows/.objs32" />
+				</Linker>
+			</Target>
+			<Target title="Release x86">
+				<Option output="./NME_x86" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Binary/Obj/Release32/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-std=c++1z" />
+					<Add option="-m32" />
+					<Add option="-D_RELEASE32" />
+					<Add directory="../../Dependencies/glew-2.1.0/include" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/include" />
+					<Add directory="../../Dependencies/glm/glm" />
+					<Add directory="../../Dependencies/soil2/src" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add option="-s" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m32" />
+					<Add library="libglew_static32" />
+					<Add library="libglfw3" />
+					<Add library="libsoil2-static-lib" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="comdlg32" />
+					<Add library="version" />
+					<Add directory="../../Dependencies/glew-2.1.0/lib" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/lib-mingw" />
+					<Add directory="../../Dependencies/soil2/make/windows/.objs32" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="./NME_x64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Binary/Obj/Release64/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_x64" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-std=c++1z" />
+					<Add option="-m64" />
+					<Add option="-D_RELEASE64" />
+					<Add directory="../../Dependencies/glew-2.1.0/include" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/include" />
+					<Add directory="../../Dependencies/glm/glm" />
+					<Add directory="../../Dependencies/soil2/src" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add option="-s" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m64" />
+					<Add library="libglew_static64" />
+					<Add library="libglfw3" />
+					<Add library="libsoil2-static-lib" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="comdlg32" />
+					<Add library="version" />
+					<Add directory="../../Dependencies/glew-2.1.0/lib" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN64/lib-mingw-w64" />
+					<Add directory="../../Dependencies/soil2/make/windows/.objs64" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All Builds" targets="Debug x86;Release x86;Release x64;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Sources/Common.cpp" />
+		<Unit filename="Sources/Common.hpp" />
+		<Unit filename="Sources/Config.cpp" />
+		<Unit filename="Sources/Config.hpp" />
+		<Unit filename="Sources/Engine/Interface.cpp" />
+		<Unit filename="Sources/Engine/Interface.hpp" />
+		<Unit filename="Sources/Engine/Model.cpp" />
+		<Unit filename="Sources/Engine/Model.hpp" />
+		<Unit filename="Sources/Engine/Render.cpp" />
+		<Unit filename="Sources/Engine/Render.hpp" />
+		<Unit filename="Sources/Engine/Shaders.cpp" />
+		<Unit filename="Sources/Engine/Shaders.hpp" />
+		<Unit filename="Sources/Engine/Texture.cpp" />
+		<Unit filename="Sources/Engine/Texture.hpp" />
+		<Unit filename="Sources/Engine/Timer.cpp" />
+		<Unit filename="Sources/Engine/Timer.hpp" />
+		<Unit filename="Sources/Engine/Tools.cpp" />
+		<Unit filename="Sources/Engine/Tools.hpp" />
+		<Unit filename="Sources/Engine/VBO.cpp" />
+		<Unit filename="Sources/Engine/VBO.hpp" />
+		<Unit filename="Sources/Interface/imconfig.h" />
+		<Unit filename="Sources/Interface/imgui.cpp" />
+		<Unit filename="Sources/Interface/imgui.h" />
+		<Unit filename="Sources/Interface/imgui_draw.cpp" />
+		<Unit filename="Sources/Interface/imgui_impl_glfw.cpp" />
+		<Unit filename="Sources/Interface/imgui_impl_glfw.h" />
+		<Unit filename="Sources/Interface/imgui_impl_opengl3.cpp" />
+		<Unit filename="Sources/Interface/imgui_impl_opengl3.h" />
+		<Unit filename="Sources/Interface/imgui_internal.h" />
+		<Unit filename="Sources/Interface/imgui_widgets.cpp" />
+		<Unit filename="Sources/Interface/imstb_rectpack.h" />
+		<Unit filename="Sources/Interface/imstb_textedit.h" />
+		<Unit filename="Sources/Interface/imstb_truetype.h" />
+		<Unit filename="Sources/Logger.cpp" />
+		<Unit filename="Sources/Logger.hpp" />
+		<Unit filename="Sources/Main.cpp" />
+		<Unit filename="Sources/Resources.hpp" />
+		<Unit filename="Sources/Resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

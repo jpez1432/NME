@@ -1,0 +1,59 @@
+Loaded Configuration
+NME - v0.1.52 [x64 Release]
+Resource Directory - Resources\
+Configuration Filename - Config.bin
+Interface Filename - Interface.ini
+Root Directory - D:\Projects_2\NME\NME\
+Initialized GLFW3 Library
+Created GLFW3 Window
+Initialized GLEW
+GLEW - v2.1.0
+GLFW3 - v3.3.1 Win32 WGL EGL OSMesa MinGW
+OpenGL Renderer - GeForce GTX 960/PCIe/SSE2
+OpenGL Vendor - NVIDIA Corporation
+OpenGL Version - v4.6.0 NVIDIA 442.74
+Error Loading Model File - C:\Users\James\Desktop\Models\MODELS\_MAXD13.obj
+Loaded Shader File - D:\Projects_2\NME\NME\Resources\Shaders\Main.frag
+Compiled OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Main.frag
+Attached Shader - D:\Projects_2\NME\NME\Resources\Shaders\Main.frag
+Destroyed OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Main.frag
+Loaded Shader File - D:\Projects_2\NME\NME\Resources\Shaders\Main.vert
+Compiled OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Main.vert
+Attached Shader - D:\Projects_2\NME\NME\Resources\Shaders\Main.vert
+Destroyed OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Main.vert
+Linked Shader Program
+Created Shader Program
+Created Main Shader Program
+Loaded Shader File - D:\Projects_2\NME\NME\Resources\Shaders\Color.frag
+Compiled OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Color.frag
+Attached Shader - D:\Projects_2\NME\NME\Resources\Shaders\Color.frag
+Destroyed OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Color.frag
+Loaded Shader File - D:\Projects_2\NME\NME\Resources\Shaders\Color.vert
+Compiled OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Color.vert
+Attached Shader - D:\Projects_2\NME\NME\Resources\Shaders\Color.vert
+Destroyed OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Color.vert
+Linked Shader Program
+Created Shader Program
+Created Color Shader Program
+Loaded Shader File - D:\Projects_2\NME\NME\Resources\Shaders\Select.frag
+Compiled OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Select.frag
+Attached Shader - D:\Projects_2\NME\NME\Resources\Shaders\Select.frag
+Destroyed OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Select.frag
+Loaded Shader File - D:\Projects_2\NME\NME\Resources\Shaders\Select.vert
+Compiled OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Select.vert
+Attached Shader - D:\Projects_2\NME\NME\Resources\Shaders\Select.vert
+Destroyed OpenGL Shader - D:\Projects_2\NME\NME\Resources\Shaders\Select.vert
+Linked Shader Program
+Created Shader Program
+Created Selection Shader Program
+Created Rendering Engine
+Created Timer
+NME Created
+Saved Configuration
+Destroyed Configuration Object
+Released imGui Interface
+Destroyed OpenGL Shader Program
+Destroyed OpenGL Shader Program
+Destroyed Rendering Engine
+Destroyed OpenGL Framework 3 Window
+NME Destroyed
